@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
     // log error to database
     console.log(error);
     res.status(500).json({
-      message: 'Error retrieving the hubs',
+      message: 'Error retrieving the hubs'
     });
   }
 });
@@ -34,7 +34,7 @@ router.get('/:id', async (req, res) => {
     // log error to database
     console.log(error);
     res.status(500).json({
-      message: 'Error retrieving the hub',
+      message: 'Error retrieving the hub'
     });
   }
 });
@@ -47,7 +47,7 @@ router.post('/', async (req, res) => {
     // log error to database
     console.log(error);
     res.status(500).json({
-      message: 'Error adding the hub',
+      message: 'Error adding the hub'
     });
   }
 });
@@ -64,7 +64,7 @@ router.delete('/:id', async (req, res) => {
     // log error to database
     console.log(error);
     res.status(500).json({
-      message: 'Error removing the hub',
+      message: 'Error removing the hub'
     });
   }
 });
@@ -82,7 +82,7 @@ router.put('/:id', async (req, res) => {
     // log error to database
     console.log(error);
     res.status(500).json({
-      message: 'Error updating the hub',
+      message: 'Error updating the hub'
     });
   }
 });
